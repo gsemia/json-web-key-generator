@@ -383,7 +383,7 @@ public class Launcher {
 				.build(priv);
 
 			Instant startDate = Instant.now();
-			Instant endDate = startDate.plus(300, ChronoUnit.DAYS);
+			Instant endDate = startDate.plus(10950, ChronoUnit.DAYS);
 
 			JcaX509v3CertificateBuilder certBuilder = new JcaX509v3CertificateBuilder(
 				dn, certSerialNumber, Date.from(startDate), Date.from(endDate),
